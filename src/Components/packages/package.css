@@ -1,0 +1,63 @@
+.package-card-main{
+    padding-top: 20px;
+}
+.package-card-container{
+    /* border: 1px solid rgba(128, 128, 128, 0.495); */
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 0px 10px 0px rgba(0,0,0,0.28);
+}
+.package-card-img > img {
+    width: 100%;
+    border-radius:  18px 18px 0px 0px;
+}
+.package-icon-content-box{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.package-title{
+    text-align: center;
+    border-bottom: 1px solid #94713944;
+    padding: 20px;
+}
+.package-title h4{
+    font-size: 27px;
+    font-family: var(--font-family);
+}
+.package-icon-content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-block: 3px;
+}
+.package-btn button{
+    /* margin-block: 20px; */
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    color: aliceblue;
+    font-size: 13px;
+    background-color: #947139;
+    border-radius: 20px;
+}
+.package-con h5{
+    font-size: 17px;
+    font-weight: 400;
+}
+.package-icon > i{
+    font-size: 20px;
+}
+
+@media (min-width : 992px) and (max-width : 1199px){
+}
+
+@media  (max-width: 767px)  {
+}
+
+@media (min-width :768px) and (max-width : 991px){
+}
+@media (min-width : 992px) and (max-width : 1199px){
+}

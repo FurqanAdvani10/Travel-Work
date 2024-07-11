@@ -1,0 +1,29 @@
+.faith-img-section > img{
+    width: 385px;
+    max-height: 550px;
+    object-fit: contain;
+}
+.faith-content{
+    padding-top: 30px;
+}
+.content-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.faith-icon img {
+    /* width: 80px; */
+    height: 60px;
+}
+.faith-content-box h4 {
+   font-size: 30px;
+   font-weight: 400;
+   font-family: var(--font-family);
+}
+.faith-content-box p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.row-margin{
+    margin-top: 100px;
+}

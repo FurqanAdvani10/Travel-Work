@@ -1,0 +1,40 @@
+.process-contant-no{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 60px;
+    align-items: start;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.process-contant-container{
+    padding-top: 40px;
+}
+.process-no h4{
+    font-size: 19px;
+    font-weight: 300;
+}
+.process-no{
+    background-color: rgba(183, 183, 183, 0.408);
+    box-shadow: 2px 0px 10px 0px rgba(0,0,0,0.18);
+    padding: 15px;
+    border-radius: 10px;
+}
+.pro-con h4{
+    font-size: 32px;
+    font-family: var(--font-family);
+}
+.pro-con p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 15px !important;
+}
+.process-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.process-img img {
+    width: 400px;
+    object-fit: contain;
+}
